@@ -343,9 +343,9 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 1740 -570 1 0 {name=p2 sig_type=std_logic lab=VX}
 C {sky130_fd_pr/nfet_01v8.sym} 1590 -610 0 0 {name=M101
-L=0.5
-W=2.5
-nf=1 
+L=2
+W=7
+nf=7
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -357,9 +357,9 @@ model=nfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 1880 -610 0 1 {name=M102
-L=0.5
-W=2.5
-nf=1 
+L=2
+W=7
+nf=7
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -601,7 +601,7 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 430 -400 0 0 {name=p1 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 500 -590 0 0 {name=R1
-L=0.20
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
